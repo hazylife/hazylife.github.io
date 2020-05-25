@@ -1,0 +1,28 @@
+body {
+	background-image: url("HAZY.png");
+	background-color: black;
+	background-size: 12%;
+}
+
+canvas {
+	width: 70%;
+}
+
+.canvases {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	overflow: hidden;
+	justify-content: center;
+}
+
+.flipX {
+	transform: scaleX(-1);
+}
+
+.flipY {
+	transform: scaleY(-1);
+}
+
+.flipBoth {
+	transform: scale(-1, -1);
+}
